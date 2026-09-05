@@ -295,7 +295,7 @@ pydub==0.25.1
     #   open-llm-vtuber
 pygments==2.19.2
     # via rich
-pyjwt==2.10.1
+pyjwt==2.13.0
     # via mcp
 pyobjc==12.1 ; sys_platform == 'darwin'
     # via pyttsx3
