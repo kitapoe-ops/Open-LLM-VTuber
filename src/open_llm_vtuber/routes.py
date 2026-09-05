@@ -185,7 +185,7 @@ def init_webtool_routes(default_context_cache: ServiceContext) -> APIRouter:
         except ValueError as e:
             logger.error(f"Audio format error: {e}")
             return Response(
-                content=json.dumps({"error": str(e)}),
+                content=json.dumps({"error": "Invalid audio input"}),
                 status_code=400,
                 media_type="application/json",
             )
