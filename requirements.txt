@@ -1077,7 +1077,7 @@ scipy==1.17.0 ; python_full_version >= '3.11'
     # via open-llm-vtuber
 sentry-sdk==2.50.0
     # via fastapi-cloud-cli
-setuptools==80.10.1 ; (python_full_version >= '3.12' and platform_machine == 'arm64') or (python_full_version >= '3.12' and sys_platform != 'darwin')
+setuptools==83.0.0 ; (python_full_version >= '3.12' and platform_machine == 'arm64') or (python_full_version >= '3.12' and sys_platform != 'darwin')
     # via torch
 shellingham==1.5.4
     # via typer
