@@ -72,7 +72,7 @@ coloredlogs==15.0.1
     # via onnxruntime
 comtypes==1.4.15 ; sys_platform == 'win32'
     # via pyttsx3
-cryptography==46.0.3
+cryptography==50.0.0
     # via pyjwt
 cuda-bindings==12.9.4 ; platform_machine == 'x86_64' and sys_platform == 'linux'
     # via torch
