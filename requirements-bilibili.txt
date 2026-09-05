@@ -1,4 +1,4 @@
-aiohttp==3.9.5
+aiohttp==3.14.3
 anthropic==0.68.1
 azure-cognitiveservices-speech==1.46.0
 brotli==1.1.0
