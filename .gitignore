@@ -1,0 +1,18 @@
+# Local secrets & runtime artifacts — never commit
+.env
+.env.vtuber
+conf.yaml
+conf.yaml.backup
+cache/
+models/
+logs/
+chat_history/
+live2d-models-extra/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Backups
+*.backup

@@ -1,0 +1,65 @@
+[
+    {
+        "name": "mao_pro",
+        "description": "",
+        "url": "/live2d-models/mao_pro/mao_pro.model3.json",
+        "kScale": 0.5,
+        "initialXshift": 0,
+        "initialYshift": 0,
+        "kXOffset": 1150,
+        "idleMotionGroupName": "Idle",
+        "emotionMap": {
+            "neutral": 0,
+            "anger": 2,
+            "disgust": 2,
+            "fear": 1,
+            "joy": 3,
+            "smirk": 3,
+            "sadness": 1,
+            "surprise": 3
+        },
+        "tapMotions": {
+            "HitAreaHead": {
+                "": 1
+            },
+            "HitAreaBody": {
+                "": 1
+            }
+        }
+    },
+    {
+        "name": "shizuku",
+        "description": "",
+        "url": "/live2d-models/shizuku/shizuku.model3.json",
+        "kScale": 0.5,
+        "initialXshift": 0,
+        "initialYshift": 0,
+        "kXOffset": 0,
+        "emotionMap": {
+            "neutral": 0,
+            "joy": 1,
+            "sadness": 2,
+            "surprise": 3,
+            "anger": 4,
+            "fear": 4
+        }
+    },
+    {
+        "name": "vampire",
+        "description": "",
+        "url": "/live2d-models/vampire/vampire.model3.json",
+        "kScale": 0.5,
+        "initialXshift": 0,
+        "initialYshift": 0,
+        "kXOffset": 0,
+        "emotionMap": {
+            "neutral": 12,
+            "joy": 4,
+            "smirk": 13,
+            "sadness": 12,
+            "anger": 6,
+            "fear": 2,
+            "surprise": 11
+        }
+    }
+]
